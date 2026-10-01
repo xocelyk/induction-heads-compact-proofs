@@ -1,0 +1,4 @@
+brute force: acc 1.000000 on 2096640 inputs, min margin 16.966, 18s
+certified 890/960 groups -> accuracy lower bound 0.9271 (16.2s)
+margin lb: min -21.78 median 12.95; beta lb: min 0.369 median 0.838
+groups checked 960, violations 0, min(actual - bound) 0.1504

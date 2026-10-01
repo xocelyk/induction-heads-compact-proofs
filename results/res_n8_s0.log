@@ -1,0 +1,10 @@
+certified 1093/1440 groups -> accuracy lower bound 0.7590 (71.8s)
+margin lb: min -75.75 median 14.64; beta lb: min 0.008 median 0.902
+sampled acc 1.000000 on 400k; throughput 81590/s; full input space 3.459e+08 -> brute force est 1.18 h
+group q=13 i=4 a=11: 240240 inputs, margin lb 17.13 vs actual 22.11
+group q=1 i=0 a=2: 240240 inputs, margin lb 10.75 vs actual 22.36
+group q=15 i=0 a=12: 240240 inputs, margin lb -3.38 vs actual 21.20
+group q=7 i=0 a=0: 240240 inputs, margin lb 16.46 vs actual 22.73
+group q=4 i=3 a=2: 240240 inputs, margin lb 1.67 vs actual 22.98
+group q=7 i=3 a=1: 240240 inputs, margin lb 13.86 vs actual 20.97
+soundness: 6 groups, violations 0, min(actual-bound) 0.4865
