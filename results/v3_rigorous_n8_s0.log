@@ -1,0 +1,2 @@
+rigorous: certified 1093/1440 groups -> accuracy lower bound 0.7590 (85.8s)
+margin lb: min -75.75 median 14.64, smallest certified 0.0115; beta lb: min 0.008 median 0.902
