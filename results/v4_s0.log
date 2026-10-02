@@ -1,0 +1,7 @@
+certified 959/960 groups -> accuracy lower bound 0.9990 (9.8s)
+margin lb: min -1.55 median 19.49; beta lb: min 0.628 median 0.965
+groups checked 960, violations 0, min(actual - bound) -0.0000
+rigorous: certified 959/960 groups -> accuracy lower bound 0.9990 (63.0s)
+margin lb: min -1.55 median 19.49, smallest certified 0.4683; beta lb: min 0.628 median 0.965
+groups checked 960, violations 0, min(actual - bound) 0.0000
+max |float - rigorous|: margin 2.31e-09, gaps 4.33e-10, beta 3.54e-11; certification changes 0

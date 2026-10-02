@@ -1,0 +1,19 @@
+sampled acc 1.000000 on 400k; throughput 149840/s; full input space 3.459e+08 -> brute force est 0.64 h
+certified 1349/1440 groups -> accuracy lower bound 0.9368 (37.4s)
+margin lb: min -60.02 median 18.62; beta lb: min 0.060 median 0.966
+group q=13 i=4 a=11: 240240 inputs, margin lb 18.89 vs actual 22.11
+group q=1 i=0 a=2: 240240 inputs, margin lb 15.45 vs actual 22.36
+group q=15 i=0 a=12: 240240 inputs, margin lb 8.72 vs actual 21.20
+group q=7 i=0 a=0: 240240 inputs, margin lb 19.26 vs actual 22.73
+group q=4 i=3 a=2: 240240 inputs, margin lb 15.97 vs actual 22.98
+group q=7 i=3 a=1: 240240 inputs, margin lb 16.51 vs actual 20.97
+soundness: 6 groups, violations 0, min(actual-bound) 0.2121
+rigorous: certified 1349/1440 groups -> accuracy lower bound 0.9368 (174.5s)
+margin lb: min -60.02 median 18.62, smallest certified 0.6306; beta lb: min 0.060 median 0.966
+group q=13 i=4 a=11: 240240 inputs, margin lb 18.89 vs actual 22.11
+group q=1 i=0 a=2: 240240 inputs, margin lb 15.45 vs actual 22.36
+group q=15 i=0 a=12: 240240 inputs, margin lb 8.72 vs actual 21.20
+group q=7 i=0 a=0: 240240 inputs, margin lb 19.26 vs actual 22.73
+group q=4 i=3 a=2: 240240 inputs, margin lb 15.97 vs actual 22.98
+group q=7 i=3 a=1: 240240 inputs, margin lb 16.51 vs actual 20.97
+soundness: 6 groups, violations 0, min(actual-bound) 0.2121

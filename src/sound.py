@@ -2,7 +2,7 @@
 import numpy as np, pickle, sys, itertools
 from model import forward, D, N
 import importlib
-mod = importlib.import_module(sys.argv[2] if len(sys.argv)>2 else 'proof_v3')
+mod = importlib.import_module(sys.argv[2] if len(sys.argv)>2 else 'proof_v4')
 _, T, s1 = mod.run(sys.argv[1], verbose=False)
 p = pickle.load(open(sys.argv[1],'rb')); dh=p['Q1'].shape[1]
 B2=p['Q2']@p['K2'].T/np.sqrt(dh); f=N-1
